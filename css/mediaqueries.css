@@ -1,0 +1,199 @@
+@media screen and (max-width: 780px){
+    .wrapper{
+        display: none;
+    }
+
+    .mobile-wrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+    }
+
+    /* navigation bar */
+
+    .mobile-nav{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 10vh;
+        justify-content: space-between;
+    }
+    
+    .name{
+        position: relative;
+        margin: 4%;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .hamburger{
+        position: relative;
+        display: block;
+        margin: 4%;
+    }
+
+    #ham-icon{
+        display: block;
+        height: 20px;
+        width: 25px;
+        cursor: pointer;
+    }
+
+    #menu-list{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        z-index: 1;
+        right: 0;
+        margin-top: 4%;
+        margin-right: 4%;
+        background-color: white;
+    }
+
+    #menu-list a {
+        font-size: 1.5rem;
+        color: black;
+        text-decoration: none;
+        text-underline-offset: none;
+        margin-bottom: 15px;
+        right: 2rem;
+        cursor: pointer;
+    }
+
+    #cross{
+        display: block;
+        height: 20px;
+        width: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        margin-left: 75%;
+    }
+
+    .mobile-main{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        margin-top: 10vh;
+    }
+
+    /* the home section */
+
+    #Home-mobile{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .profile{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70vh;
+        width: 60vb;
+        margin-top: 20%;
+        font-size: 1.2rem;
+    }
+
+    #profilepic{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        margin: 7%;
+    }
+
+    .bottom-btns{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 11%;
+        margin-top: 3%;
+        left: 7vb;
+    }
+    
+    .download-cv {
+        position: relative;
+        padding: 3%;
+        padding-left: 6%; padding-right: 6%;
+        border-radius: 20px;
+        border: 2px solid black;    
+        background-color: black;
+        color: white;
+    }
+    
+    .contact-me {
+        position: relative;
+        padding: 3%;
+        padding-left: 7%; padding-right: 7%;
+        border-radius: 20px;
+        border: 2px solid black;    
+        background-color: black;
+        color: white;
+        margin-left: 10%;
+    }
+    
+    .download-cv:hover{
+        background-color: white;
+        color: black;
+    }
+    .contact-me:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .socials{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+        height: 20%;
+        left: 0%;
+        list-style-type: none;   
+    }
+
+    /* the whoamI section */
+
+    #WhoamI-mobile{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 1.1rem;
+        margin-top:2rem;
+        right:0;
+    }
+
+    .block-format{
+        position: relative;
+        display: inline-block;
+        margin-top: 3%;
+        width: 90%;
+        height: fit-content;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 1rem;
+    }
+
+    .about-me{
+        width: 80%;
+        text-align: center;
+        margin-right: 0%;
+    }
+    
+}
