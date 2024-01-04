@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="../css/home.css"> 
+    <link rel="stylesheet" href ="../css/mediaqueries.css"> 
+    <title>Mbizo, Pontsho</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div id="desktop-navigation">
+
+            <div class="profile">
+                <img src="../assets/pp.jpg" alt="" id="profilepic">
+            </div>
+
+            <nav class="route">
+                
+                <a href="#Home"><img src="../assets/homepg.png" class="navLinks" id = "home-link"></a>
+                <button for="home-link" class="route-btn" onclick="location.href='#Home'">Home</button>
+                <a href = "#WhoamI"><img src="../assets/whoamI.png" class="navLinks" id = "whoamI-link" href = ""></a>
+                <button for="whoamI-link" class="route-btn" onclick="location.href='#WhoamI'">WhoamI</button>
+                <a href="#Portfolio"><img src="../assets/portfolio.png" class="navLinks" id = "portfolio-link" href = ""></a>
+                <button for="portfolio-link" class="route-btn" onclick="location.href='#Portfolio'">Portfolio</button>
+                
+            </nav>
+            <div class="socials">
+                <a href="https://www.google.com/"><img src="../assets/insta.png" id = "insta" class = "clogo"></a>
+                <a href="https://www.google.com/"><img src="../assets/github.png" id = "github" class="clogo"></a>
+                <a href="https://www.google.com/"><img src="../assets/linkedin.png" id = "linkedin" class="clogo"></a>
+            </div>
+
+        </div>
+
+        <div class="desktop-main">
+            <section id="Home">
+                <span id="intro-container">
+                    <div class="line-one"><span class = "root">root@ubuntu:~#</span><span class="first-line"></span></div>
+                    <div class="line-two"><span class = "root">root@ubuntu:~#</span><span class="second-line"></span></div>
+                    <div class="line-three"><span class = "root">root@ubuntu:~#</span><span class="third-line"></span></div>
+                </span>
+                <span class="bottom-btns">
+                    <button class="download-cv" onclick="window.open('../assets/resume.pdf')">Download CV</button>
+                    <button class="contact-me" onclick="location.href='#contact'">Contact Me</button>
+                </span>
+                <span class="btm-h2"><h2>And  yes,  I  am  a  linux  enthusiast . . .</h2></span>
+            </section>
+
+            <section id="WhoamI">
+                <span class="about-me"><p>get to know more</p><br>
+                <h1>About Me</h1><br></span>
+
+                <span id="education" class="block-format">
+                    <h4>Education</h4>
+                </span>
+
+                <span class="block-format" id="xp">
+                    <h4>Experience</h4>
+                </span>
+
+                <span id="ambition" class="block-format">
+                    <h4>Ambition</h4><br>
+                    <p>I thrive in the dynamic intersection of Electrical and Computer Engineering, constantly seeking opportunities to apply theoretical knowledge to real-world challenges. My commitment to academic excellence is complemented by my dedication to making a positive impact within both my academic and professional communities.</p>
+                </span>
+
+                <span class="block-format" id="skills">
+                    <h4>Skills</h4>
+                </span>
+
+            </section>
+
+            <section id="Portfolio">
+
+            </section>
+        </div>
+
+
+        </div>
+
+
+
+    <div class="mobile-wrapper">
+        <div class="mobile-nav">
+            <span class="name">Pontsho Mbizo</span>
+            <span class="hamburger">
+                <img src="../assets/hamburger.png" onclick="openMenu()" alt="" id="ham-icon">
+            </span>
+            <span id="menu-list">
+                <img src="../assets/cross.png" onclick="closeMenu()" alt="" id="cross">
+                <a href="#Home-mobile" onclick="closeMenu()">Home</a>
+                <a href="#WhoamI-mobile" onclick="closeMenu()">WhoamI</a>
+                <a href="#Portfolio-mobile" onclick="closeMenu()">Portfolio</a>
+            </span>
+        </div>
+        <div class="mobile-main">
+            <section id="Home-mobile">
+                <div class="profile">
+                    <img src="../assets/pp.jpg" alt="" id="profilepic">
+                    <p>Hello, I'm</p>
+                    <h3>Pontsho Mbizo</h3>
+                    <p>I'm an ECE student at UCT</p>
+                    <span class="bottom-btns">
+                        <button class="download-cv" onclick="window.open('../assets/resume.pdf')">Download CV</button>
+                        <button class="contact-me" onclick="location.href='#contact'">Contact Me</button>
+                    </span>
+                    <span class="socials">
+                        <a href="https://www.google.com/"><img src="../assets/insta.png" id = "insta" class = "clogo"></a>
+                        <a href="https://www.google.com/"><img src="../assets/github.png" id = "github" class="clogo"></a>
+                        <a href="https://www.google.com/"><img src="../assets/linkedin.png" id = "linkedin" class="clogo"></a>
+                    </span>
+                </div>
+            </section>
+
+            <section id="WhoamI-mobile">
+                <span class="about-me"><p>get to know more</p><br>
+                    <h1>About Me</h1><br>
+                </span>
+                <span id="education" class="block-format">
+                    <h4>Education</h4>
+                </span>
+
+                <span class="block-format" id="xp">
+                    <h4>Experience</h4>
+                </span>
+
+                <span id="ambition" class="block-format">
+                    <h4>Ambition</h4><br>
+                    <p>I thrive in the dynamic intersection of Electrical and Computer Engineering, constantly seeking opportunities to apply theoretical knowledge to real-world challenges. My commitment to academic excellence is complemented by my dedication to making a positive impact within both my academic and professional communities.</p>
+                </span>
+
+                <span class="block-format" id="skills">
+                    <h4>Skills</h4>
+                </span>
+            </section>
+
+            <section id="Portfolio-mobile"></section>
+        </div>
+
+    </div>
+    <script defer src="../javaScript/script.js"></script>
+</body>
+</html>
