@@ -301,48 +301,66 @@ button.route-btn:hover{
 
 /* the WhoamI section */
 
-#WhoamI-mobile{
+#WhoamI{
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    justify-items: flex-start;
+    display: inline-block;
     width: 100%;
     font-size: 1.1rem;
 }
 
-.about-me{
-    width: 80%;
-    text-align: center;
-    margin-right: 12%;
-}
-
-.about-me > p{
-    font-size: 1.5rem;
-    color: grey;
-}
-
-.about-me h1{
-    letter-spacing: .2rem;
-    font-size: 3rem;
-}
-
 .block-format{
     position: relative;
-    display: inline-block;
-    margin-top: 3%;
-    width: 30%;
-    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin-bottom: 10vh;
+    width: 45%;
+    height: 30vh;
     text-align: center;
-    border: 2px solid black;
+    font-size: 1.1rem;
+    border: 2px solid hsl(0, 0%, 85%);
     border-radius: 1rem;
-    box-shadow: grey;
+    left: 45%;
+    top: -95vh;
 }
 
-#skills{
-    flex-grow: 1;
-    margin-right: .5rem;
+.block-format p {
+    color: hsl(0, 0%, 50%);
 }
+
+.block-format img {
+    display: block;
+    height: 70px;
+    width: 70px;
+}
+
+#ambition {
+    left: 0;
+    top: 0;
+    position: relative;
+    height: 80vh;
+    width: 30%;
+}
+
+.block-format h4 {
+    margin: 2%;
+}
+
+.about-me{
+    position: relative;
+    width: 80%;
+    left: -10%;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-me h1 {
+    font-size: 2.2rem;
+}
+
+
 
 
 
