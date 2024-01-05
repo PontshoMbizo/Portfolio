@@ -33,3 +33,6 @@ function openMenu(){
 function closeMenu(){
     menu.style.display = "none";
 }
+
+// for the portfolio filter
+

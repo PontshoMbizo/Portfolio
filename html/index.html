@@ -7,6 +7,7 @@
     <link rel="stylesheet" href ="../css/mediaqueries.css"> 
     <title>Mbizo, Pontsho</title>
 </head>
+
 <body>
     <div class="wrapper">
 
@@ -22,6 +23,8 @@
                 <button for="home-link" class="route-btn" onclick="location.href='#Home'">Home</button>
                 <a href = "#WhoamI"><img src="../assets/whoamI.png" class="navLinks" id = "whoamI-link" href = ""></a>
                 <button for="whoamI-link" class="route-btn" onclick="location.href='#WhoamI'">WhoamI</button>
+                <a href = "#Skills"><img src="../assets/skills.png" class="navLinks" id = "skills-link" href = ""></a>
+                <button for="skills-link" class="route-btn" onclick="location.href='#Skills'">Skills</button>
                 <a href="#Portfolio"><img src="../assets/portfolio.png" class="navLinks" id = "portfolio-link" href = ""></a>
                 <button for="portfolio-link" class="route-btn" onclick="location.href='#Portfolio'">Portfolio</button>
                 
@@ -50,7 +53,7 @@
 
             <section id="WhoamI">
                 <span class="about-me"><p>get to know more</p>
-                <h1>About Me</h1></span>
+                <h1>ABOUT ME</h1></span>
 
                 <span id="ambition" class="block-format">
                     <img src="../assets/ambition.png" alt="">
@@ -72,16 +75,126 @@
 
             </section>
 
+            <section id="Skills">
+                <span>
+                    <p>explore my</p>
+                    <h1>SKILLS</h1>
+                </span>
+                
+                <div class="skills-container">
+                    <ul class = "skill-list">
+                        <li>KiCAD</li>
+                        <span style="width: 78%; background-color: black;"></span>
+                        <li>80%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Solid Works</li>
+                        <span style="width: 78%; background-color: black;"></span>
+                        <li>80%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Microsoft Excel</li>
+                        <span style="width: 58%; background-color: black;"></span>
+                        <li>60%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Linux OS</li>
+                        <span style="width: 43%; background-color: black;"></span>
+                        <li>45%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Bash Scripting</li>
+                        <span style="width: 28%; background-color: black;"></span>
+                        <li>30%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Git/GitHub</li>
+                        <span style="width: 43%; background-color: black;"></span>
+                        <li>45%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Python</li>
+                        <span style="width: 74%; background-color: black;"></span>
+                        <li>76%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Java</li>
+                        <span style="width: 74%; background-color: black;"></span>
+                        <li>76%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>C/C++</li>
+                        <span style="width: 63%; background-color: black;"></span>
+                        <li>65%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>HTML</li>
+                        <span style="width: 48%; background-color: black;"></span>
+                        <li>50%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>CSS</li>
+                        <span style="width: 48%; background-color: black;"></span>
+                        <li>50%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>javaScript</li>
+                        <span style="width: 48%; background-color: black;"></span>
+                        <li>50%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>SQL</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>OpenCV library</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Arduino microcontroller</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>rasberry PI</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>VHDL</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Spice</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                </div>
+                
+            </section>
+
             <section id="Portfolio">
 
+                <span id = "header">
+                    <p> Take a look at</p>
+                    <h1>MY PORTFOLIO</h1>
+                </span>
+
+                <span class="filter">
+                    <li data-active ="All" onclick = "changeBackRound()" onload="changeBackRound()">All</li>
+                    <li data-active="Electronics" onclick = "changeBackRound()">Electronics</li>
+                    <li data-active="WebDev" onclick = "changeBackRound()">WebDev</li>
+                    <li data-active="Scripts" onclick = "changeBackRound()">Scripts</li>
+                </span>
+
+                <div class="projects">
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                </div>
             </section>
         </div>
-
-
-        </div>
-
-
-
+    </div>
     <div class="mobile-wrapper">
         <div class="mobile-nav">
             <span class="name">Pontsho Mbizo</span>
@@ -92,6 +205,7 @@
                 <img src="../assets/cross.png" onclick="closeMenu()" alt="" id="cross">
                 <a href="#Home-mobile" onclick="closeMenu()">Home</a>
                 <a href="#WhoamI-mobile" onclick="closeMenu()">WhoamI</a>
+                <a href="#Skills-mobile" onclick="closeMenu()">Skills</a>
                 <a href="#Portfolio-mobile" onclick="closeMenu()">Portfolio</a>
             </span>
         </div>
@@ -139,16 +253,122 @@
 
             </section>
 
-            <section id="Portfolio-mobile">
-                <span class="block-format" id="skills">
-                    <img src="../assets/skills.png" alt="">
-                    <h4>Skills</h4>
-                    <p></p>
+            <section id="Skills-mobile">
+                <span class = "skills-header">
+                    <p>explore my</p>
+                    <h1>SKILLS</h1>
                 </span>
+                
+                <div class="skills-container">
+                    <ul class = "skill-list">
+                        <li>KiCAD</li>
+                        <span style="width: 78%; background-color: black;"></span>
+                        <li>80%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Solid Works</li>
+                        <span style="width: 78%; background-color: black;"></span>
+                        <li>80%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Excel</li>
+                        <span style="width: 58%; background-color: black;"></span>
+                        <li>60%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Linux OS</li>
+                        <span style="width: 43%; background-color: black;"></span>
+                        <li>45%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Bash</li>
+                        <span style="width: 28%; background-color: black;"></span>
+                        <li>30%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Git/GitHub</li>
+                        <span style="width: 43%; background-color: black;"></span>
+                        <li>45%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Python</li>
+                        <span style="width: 74%; background-color: black;"></span>
+                        <li>76%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Java</li>
+                        <span style="width: 74%; background-color: black;"></span>
+                        <li>76%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>C/C++</li>
+                        <span style="width: 63%; background-color: black;"></span>
+                        <li>65%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>HTML</li>
+                        <span style="width: 48%; background-color: black;"></span>
+                        <li>50%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>CSS</li>
+                        <span style="width: 48%; background-color: black;"></span>
+                        <li>50%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>javaScript</li>
+                        <span style="width: 48%; background-color: black;"></span>
+                        <li>50%</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>SQL</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>OpenCV</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Arduino</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>rasberry PI</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>VHDL</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                    <ul class = "skill-list">
+                        <li>Spice</li>
+                        <li style="color: hsl(0, 0%, 50%);">Developing</li>
+                    </ul>
+                </div>
+                
             </section>
+
+            <section id="Portfolio-mobile">
+
+                <span id = "header-container">
+                    <p> Take a look at</p>
+                    <h1>MY PORTFOLIO</h1>
+                </span>
+
+                <div class="projects">
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                    <span class="project-item"></span>
+                </div>
+            </section>
+
         </div>
 
     </div>
+    
     <script defer src="../javaScript/script.js"></script>
 </body>
 </html>

@@ -1,1 +1,1 @@
-# Portfolio
+the mobile @media is not showing shit, fix it

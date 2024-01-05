@@ -230,13 +230,98 @@
 
 
 
+    /* Skills section */
 
-
-    /* for the portfolio */
-
-    #Portfolio-mobile{
-        display: none;
+    #Skills-mobile{
+        position: relative;
+        display: block;
+        width: 100%;
+        font-size: 1.1rem;
+        height: fit-content;
     }
+
+    .skills-container{
+        position: relative;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-around;
+        height: fit-content;
+        margin-left: 10px;
+        left: 5%;
+    }
+
+    .skills-header{
+        position: relative;
+        width: 80%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .skills-header h1 {
+        font-size: 2.2rem;
+        letter-spacing: 2px;
+    }
+
+    .skill-list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: 1rem;
+        padding: .4rem;
+    }
+
+    .skill-list span {
+        display: block;
+        height: 15px;
+        border-radius: 4px;
+        margin-top: 7px;
+    }
+
+    /* Portfolio section */
+
+#Portfolio-mobile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap:nowrap;
+    margin-top: 100px;
+}
+
+#header-container{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#header-container h1 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+    margin-left: 2vb;
+}
+
+.project-item {
+    position: relative;
+    display: flex;
+    height: 60vh;
+    width: 55vb;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+}
+    
     
 }
 
