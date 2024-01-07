@@ -84,9 +84,7 @@
         #message{
             display: block;
             width: 300px;
-            height: 200px;
             margin-bottom: 10px;
-            resize: none;
         }
 
     </style>
@@ -95,21 +93,19 @@
 </head>
 <body>
 
-    <!-- body here -->
-
     <span class="contact-me">
         <p>reach out and</p>
         <h1>CONTACT ME</h1>
     </span>
 
-    <form>
+    <form target="_blank" action="https://formsubmit.co/pontshombizo329@gmail.com" method="POST">
 
         <label for="name">Name</label>
-        <input type="text" id = "name" placeholder="Name">
+        <input type="text" id = "name" name="name"  placeholder="Name" required>
         <label for="email">Email</label>
-        <input type="text" id = "email" placeholder="Email">
+        <input type="text" id = "email"  name = "email"  placeholder="Email" required>
         <label for="message">Message</label>
-        <textarea type="text" id="message" placeholder="type your message..."></textarea>
+        <textarea type="text" rows="10" id="message" name="message" placeholder="type your message..."></textarea>
 
         <input type="submit" value="Submit" id = 'submit'>
 
