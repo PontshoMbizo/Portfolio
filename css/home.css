@@ -424,9 +424,12 @@ button.route-btn:hover{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: fit-content;
+    overflow: auto;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 #header{
